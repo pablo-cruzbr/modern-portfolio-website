@@ -14,7 +14,17 @@ const Nav = () => {
                 <h1 className="text-x1 hidden sm:block md:text-2xl text-white font-bold">Pablo</h1>
             </div>
 
-          
+            <div className="hidden lg:flex items-center space-x-10">
+                {NavLinks.map((link) => (
+                    <Link 
+                    key={link.id} 
+                    href={link.url} 
+                    className="text-base font-medium text-white transition-all duration-200 hover:text-cyan-300"
+                    >
+                    {link.label}
+                    </Link>
+                ))}
+                </div>
         </div>
     </div>
   )
