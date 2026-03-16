@@ -7,7 +7,7 @@ const ResponsiveNav = () => {
     <div>
         <Nav/>
         <MobileNav/>
-        ResponsiveNav</div>
+    </div>
   )
 }
 
