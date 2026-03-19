@@ -24,7 +24,6 @@ const Nav = ({openNav}: Props) => {
         return () => window. removeEventListener("scroll", handler);
     }, []);
 
-
   return (
     <nav className={`fixed w-full transition-all duration-200 h-[12vh] z-[100] flex items-center 
             ${navBg ? "bg-[#0C0D1F] shadow-lg" : "bg-transparent"} 
