@@ -15,6 +15,6 @@ const ResponsiveNav = () => {
         <MobileNav showNav={showNav} closeNav={closeNavHandler} />
     </div>
   );
-}; // A função deve fechar apenas aqui, depois do return
+};
 
 export default ResponsiveNav;
