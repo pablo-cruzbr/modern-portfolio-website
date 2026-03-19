@@ -3,7 +3,12 @@ import { NavLinks } from '@/constant/constant'
 import Link from 'next/link'
 import { CgClose } from 'react-icons/cg'
 
-const MobileNav = () => {
+type Props = {
+  showNav: boolean;  
+  closeNav: () => void;
+}
+
+const MobileNav = ({closeNav, showNav}: Props) => {
   return (
     <div className="fixed inset-0 transform transition-all right-0 duration-500 z- [100002] bg-black opacity-70 w-full h-screen">
       <div className="text-white fixed justify-center flex flex-col h-full transform transition duration-500 delay-300 w-[80%] sm:w-[60%] bg-cyan-950 space-y-6 z- [100050] right-0">
@@ -16,7 +21,7 @@ const MobileNav = () => {
           </Link>
         ))}
 
-        <CgClose className="absolute top- [2rem] right-[1.4rem] sm:w-8 sm:h-8 w-6 h-6 text-white cursor-pointer" />
+        <CgClose  onClick={closeNav} className="absolute top- [2rem] right-[1.4rem] sm:w-8 sm:h-8 w-6 h-6 text-white cursor-pointer" />
       </div>
     </div>
   )
