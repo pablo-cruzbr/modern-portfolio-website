@@ -11,10 +11,10 @@ const Hero = () => {
       <ParticlesHero />
         <div className="relative z-10 flex-col items-center"></div>
             <Image
-                src= "/img/s1.webp"
+                src= "/img/2.svg"
                 alt='heroimage'
-                width={150}
-                height={150}
+                width={200}
+                height={200}
                 className='rounded-full border-8 border-[#0c0c48aa]'
             />
               <h1 className="text-2xl sm:text-2xl md:text-5xl lg:text-6x1 mt-6 text-center font-bold tracking-wide">Creating web products, <br/> brands, <span className="text-cyan-200">an experienciences.</span></h1> 
