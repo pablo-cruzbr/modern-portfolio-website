@@ -2,6 +2,7 @@ import React from 'react'
 import ResumeCard from './ResumeCard'
 import { FaCodepen, FaReact } from 'react-icons/fa'
 import { BsDatabase } from 'react-icons/bs'
+import { BiBadge } from 'react-icons/bi'
 
 const Resume = () => {
   return (
@@ -19,7 +20,30 @@ const Resume = () => {
             </div>
 
     
-            <div>EDUCATION PART</div>
+            <div>
+              <h1 className="text-3xl sm:text-4xl font-bold text-white">
+                My Work <span className="text-cyan-200">Education</span>
+              </h1>
+              <div className="mt-10">
+                <ResumeCard 
+                Icon={BiBadge} 
+                role="Design Instiute of Technology"
+                date="Jan 2023 - Dec 2024"
+                />
+
+                <ResumeCard 
+                Icon={FaReact} 
+                role="Bachelor in Computer Sciente"
+                date="Jan 2023 - Dec 2024"
+                />
+
+                <ResumeCard 
+                Icon={BsDatabase} 
+                role="Certificate in Digital Marcketing"
+                date="Jan 2016 - Dec 2019"
+                />
+              </div>
+            </div>
 
         </div>
     </div>
