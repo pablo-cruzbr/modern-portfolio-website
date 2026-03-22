@@ -18,8 +18,6 @@ const Resume = () => {
                   <ResumeCard Icon={BsDatabase} role="Backend Developer"/>
               </div>
             </div>
-
-    
             <div>
               <h1 className="text-3xl sm:text-4xl font-bold text-white">
                 My Work <span className="text-cyan-200">Education</span>
