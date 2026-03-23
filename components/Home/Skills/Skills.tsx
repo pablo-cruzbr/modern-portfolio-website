@@ -1,12 +1,18 @@
 "use client"
 import React from 'react'
-import { SiJavascript, SiNextdotjs, SiNodedotjs, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import { SiJavascript, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si';
 import Tilt from "react-parallax-tilt";
 
 const skills = [
   {
     name: "Javasript",
     icon: <SiJavascript/>,
+    percentage: 89,
+  },
+  
+  {
+    name: "TypeScript",
+    icon: <SiTypescript/>,
     percentage: 89,
   },
 
@@ -23,10 +29,17 @@ const skills = [
   },
 
   {
-    name: "TypeScript",
-    icon: <SiTypescript/>,
+    name: "Node.js",
+    icon: <SiNodedotjs/>,
     percentage: 89,
   },
+
+  {
+    name: "Postgresql",
+    icon: <SiPostgresql/>,
+    percentage: 89,
+  },
+
 
 ]
 const Skills = () => {
