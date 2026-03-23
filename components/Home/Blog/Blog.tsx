@@ -9,7 +9,20 @@ const Blog = () => {
         </h1>
         <div className="w-[70%] mx-auto grid grid-cols-1 x1:grid-cols-3 x1>dap-4 gap-10 items-center mt-16">
             <div>
-                <BlogCard/>
+                <BlogCard
+                    image="/img/b1.webp"
+                    title="Learn how to build an amazing portfolio website using next js"
+                />
+
+                <BlogCard
+                    image="/img/b2.webp"
+                    title="Learn how to build an amazing portfolio website using next js"
+                />
+
+                <BlogCard
+                    image="/img/b3.webp"
+                    title="Learn how to build an amazing portfolio website using next js"
+                />
             </div>
         </div>
     </div>
