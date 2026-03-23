@@ -2,7 +2,8 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-
+import ClientReviewCard from './ClientReviewCard';
+import Image from 'next/image';
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1324 },
@@ -36,10 +37,36 @@ const ClientReview = () => {
             autoPlay={true}
             autoPlaySpeed={4000}
             >
-            <div>Item 1</div>
-            <div>Item 2</div>
-            <div>Item 3</div>
-            <div>Item 4</div>
+            <ClientReviewCard
+              image="/img/c1.webp"
+              name= "Janny Doe"
+              role= "CEO, Landscape"
+            />
+
+            <ClientReviewCard
+              image="/img/c2.webp"
+              name= "John Doe"
+              role= "UI UX Designer"
+            />
+
+            <ClientReviewCard
+              image="/img/c3.webp"
+              name= "Jassica Doe"
+              role= "CEO,Tech Company"
+            />
+
+            <ClientReviewCard
+              image="/img/c4.webp"
+              name= "Jara Doe"
+              role= "Web Developer"
+            />
+
+            <ClientReviewCard
+              image="/img/c5.webp"
+              name= "Jora Doe"
+              role= "CEO, Design Studio"
+            />
+
         </Carousel>;
       </div>
 </div>
