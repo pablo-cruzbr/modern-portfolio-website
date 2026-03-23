@@ -1,0 +1,255 @@
+-- LINKEDIN + JOBS
+- Criar Post  fotos AlltiControl + Foto da Equipe App + Web  ou  video de ambos.
+
+- Criar Conta na Guph vagas linkedin e aplicar pra vagas
+
+1. Crie perfis COMPLETOS uma vez:
+LinkedIn (100%)
+GeekHunter (100%)
+Gupy (100%)
+Revelo (100%)
+Tempo: 4-6 horas (faça num fim de semana)
+ Benefício: Depois é só clicar "aplicar" 
+
+
+-- CURSO + SIDEPROJECTS
+- Build a Support Agent with Vercel AI SDK
+https://youtu.be/WKIjkxxNH0c?si=u-rqsVffX9wKIXRi
+
+-- MELHORIAS DE PROJETOS:
+1 > ALLTI-CONTROL
+-> Urgente:
+X - Incluir a pesquisa de ramais no formulario tickets web
+- Incluir lógica de redirecionamento na tela de login ADMIM caso o usuário seja USER para tela de login de users
+
+17/03 x - Criar um formulario para criação de tickets no dashboard
+16/03 x - Alterar logo na /AreaUsuario
+
+-> Não muito Urgente: Melhorar leitura dos dados:
+- Incluir gráfico recharts (OS Aberta, Em Andamento e Fechada) AlltiControl e TechOs.
+- Incluir funcionalidade de filtrar OS por datas
+- Gerar Relatórios e relatórios em PDF
+
+X - Verificar se possui OS como (Prioridade) - Allti-Control e TechOS
+
+- Rever Criação de OS por usuários Yamaho
+X - Implementação de Níveis de Acesso (RBAC)
+
+
+2 > FINANÇAS
+- Copiar e colar o dashboard mestre das comandar (navbar, navbar mobile etc) e adaptar ao dashabord financeiro 
+
+- Adicionar um novo dashborad + banco de dados com login e registro.
+
+X - Trocar biblioteca gratuita de integração steinhaq.com transforma planilhas em APIs REST: steinhq.com
+x - Recharts  
+x - Adicionar gráfico de Pizza 
+- Adicionar Subtração de itens
+
+1 > PORTIFOLIO METADADOS
+- Criar Versão 2.0 novo Frontend - Branch
+x - Verificar links de projetos em deploy github pages e subir pra vercel.
+x - Adicionar app mestre das comandas no portifólio, img, file drive, link file.
+
+
+2 > MESTRE DAS COMANDAS 
+- 06/03
+x - Rever aula 109 - Configurando projeto 
+X - Refazer Dashboard CSS Mestre da Comanda.
+X --> Pagina de Login e Registro 
+X --> Sidebar / Mobile SideBar 
+X --> Pagina Categoria
+X --> Pagina Pedidos
+X --> Pagina Produtos
+x - Criar Aba e Seção de Cardapio de produtos no Dashboard 
+Mestre das Comandas.
+- Criar Landing PageMestre das Comandas Tutorial Youtube
+
+
+
+
+18/02
+X-> + Adicionar Freelancer AlltiControl
+X- Criar Design Canva
+X- Descrição Post pra rota post https://portifolio-metadata-api.vercel.app/freelancer 
+
+X-> + Adicionar Landing Page AlltiControl
+X- Criar Desing Canva 
+X- Descrição 
+
+X-> + Adicionar App AlltiControl
+X- Criar Design Canva
+X- Descrição
+
+X - 22/01, 27/01 - Att Linkedin Criar Publicações Linkedin da Bordeless Conf 2026
+
+X - Configurar Linkeding 
+
+X - Assistir Video aula Linkedin para Desenvolvedor.
+
+X - Refazer CV Linkedin (Enviar no Discord, Lucas, Felipe) - Anotar e criar Artigos e posts Felipe Meriga 
+
+
+
+
+
+
+
+--PROJETOS:
+
+- Terminar Projeto Ouath Github (REST API)
+
+- 19/01 - Criar Exercícios de Algoritmo - JavaScript (resolução de problema - github)
+
+
+
+
+OUTROS 
+- Resolver RG Google Developer (Aguardando feedback Google)
+
+- Revisar conteudos Aprendidos na BordelessCode-Conf (anotar)
+
+- 08/01 - Anotações do video do yuri do youtube de se vender para o mercado global e modelar para (cv, linkeding)
+
+-- MELHORIAS DE PROJETOS:
+
+- 14/01 - Update Schema de Equipamentos (Ver Depois no Laborátório)
+
+- TECHOS - Implementar Validação de Dados com Zod ou Joi nas rotas da API (isso evita que o banco quebre e mostra maturidade).
+
+
+-- CURSOS:
+- 19/01 - Terminar Curso APIs for Beginners (FreeCodeCamp 3 Hours)
+- Assinar o Cambly / Estudar Site Inglês
+- Fazer Exercicios JavaScript (Youtube)
+- Fazer Curso API RestFull (Youtube) X
+- 21/01 - Começar curso manguinho/PortifolioBoosProgram
+- Revisar Curso NodeJS
+- Começar Curso NodeJS Manguinho
+- GraphQL
+
+================
+Checklist AlltiControl 2026 - 31/01/2026
+
+> DEPLOY ALLTI CONTROL
+X - Variáveis de Ambiente
+X - Criar Pasta Cloudinary para salvar as Imagens AlltiControl
+X- Fazer Deploy Frontend
+X - Fazer Deploy Backend
+
+> APP ALLTICONTROL
+X - Criar nova Build - EXPO - new project
+
+> Update Readme Github
+> Banco de Dados Neon
+X - Criar novo banco de Dados
+X - Migrar todos os conteúdos das tabelas do TECHOS para o ALLTI-CONTROL (KEVIN)
+
+> App - AlltiControl e Deploy
+X - Alterar Logo
+X - Alterar cor: #4E3182 
+
+> Landing Page AlltiControl
+X- Criar Novo repositório
+X- Alterar Logo: 
+X- Alterar cor: #4E3182
+
+> Landing Page - AlltiControl
+X- Criar pagina para Download do App 
+X - Subir APK para Google Drive
+X- Alterar Botões Landing Page 
+X - Fazer Deploy da Pagina
+
+
+
+> PALETA DE COR:
+
+color: Allti Control - WEB
+#4E3182
+
+COR ANTIGAR
+
+ #354DF0, #3A5DF7, #3859F3
+
+
+
+
+
+
+CORREÇÃO: 
+X - 26/01 - Localização que some da OS e Text - TECH-OS APP
+
+X - 08/01 - Esquematizar meu Portifólio como central de projetos. Criar Página de Download própria para o App TechOS (LandingPage 1)
+
+X - 08/01 - Colocar Página LandingPage (1,2) para deploy (Vercel)
+X - 21/01 - Criar pagina de Instalação App no fite portifólio.
+X - 19/01 - Recriar Build TechOS - App
+
+X - 14/01, 16 /01 - Adicionar Scroll Bar (ModalDetailOrdem.ts) (App TechOS)
+
+X - 08/01 - Arrumar IMG Banner Carrossel na LandingPage TechOS e LandingPage 2
+
+X - 06/01 - Criar section calendario técnico landingPage TechOS
+
+x - 01/01 - Criar Middleware de ADMIN e Técnico em logins WEB no TechOS (Auth, DetailUser,)
+X - 07/01 - Erro: Verificar Middlware.ts (isAdmin)
+
+X - 01/01, 05/01 - Verificar Upload de img TechOS APP para o Cloudnary
+
+X - 01/01,05/01 - Recriar build expo App TechOs
+
+X - Arrumar Select TechOS Mobile - Arrumar quando chegar em casa (firewall) - 29/12/2025
+
+X - Adicionar Projeto TechOs pra Deploy versão Mobiel
+
+X - Atualizar link deploy do TechOS no portifolio e Mestre das Comandas
+
+X - Criar Landing Page TechOS. Tutorial Youtube
+
+X - 01/01 - Subir Landing Page TECHOS e COMIDA no Portifólio.
+
+X - Criar novo Schema para LandingPage no Banco de dados (service, controller, route)
+
+X - Terminar Curso NodeJS pra iniciantes - (somente assistir e anotar, interação, nova interação)
+
+X - Adicionar foto calendário Técnico
+
+X - Criar Readme curso NodeJS (topicos do que aprendeu durante o curso)
+
+X - Terminar de Anotar Função Orientada Objeto no caderno de Anotações (google)
+
+X - Ver no backend como deixar projetos da lista no topo, pelo id, deixar projeto X e Y no topo da lista. FindMany
+
+X - Adicionar Projeto Metadata API Portifólio em Deploy. Vercel 18/12
+
+X - Arrumar Projeto Sujeito Pizza Deploy
+ 
+X - Adicionar Projeto TechOS pra Deploy versão Web (Backend: Neon, Cloudinary, Frontend: API Vercel.)
+
+
+
+
+
+(PESSOAL, VERIFICAR BOLETO GERADO ANO PASSADO COM EMPRESA DE TI matheuslgarcez)
+
+
+DICA
+Sugestão de Fluxo de Commits (Para renderizar mais "quadradinhos verdes")
+Para chegar aos 150 commits que faltam de forma organizada, não suba tudo de uma vez. Quebre a refatoração:
+
+Commit 1: build: instala e configura Tailwind CSS no projeto
+
+Commit 2: refactor: converte layout base do Dashboard para Tailwind
+
+Commit 3: feat: implementa componente de Card de métricas com Tailwind
+
+Commit 4: fix: ajusta responsividade do gráfico principal no Dashboard
+
+
+
+
+# Instalar o Tailwind e dependências
+npm install -D tailwindcss postcss autoprefixer
+
+# Gerar os arquivos de configuração (tailwind.config.js e postcss.config.js)
+npx tailwindcss init -p
