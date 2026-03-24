@@ -6,6 +6,7 @@ import Projects from './Projects/Projects'
 import Skills from './Skills/Skills'
 import ClientReview from './ClientRaview/ClientReview'
 import Blog from './Blog/Blog'
+import Contact from './Contact/Contact'
 const Home = () => {
   return (
     <div className="overflow-hidden">
@@ -16,6 +17,7 @@ const Home = () => {
       <Skills/>
       <ClientReview/>
       <Blog/>
+      <Contact/>
     </div>
   )
 }
