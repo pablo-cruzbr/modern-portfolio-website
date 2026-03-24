@@ -7,9 +7,19 @@ const Blog = () => {
         <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
       My latest <span className="text-cyan-300">Blogs</span>
         </h1>
-        <div className="w-[70%] mx-auto grid grid-cols-1 x1:grid-cols-3 x1>dap-4 gap-10 items-center mt-16">
-            
-        </div>
+      <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 items-center mt-16">
+    <div>
+      <BlogCard image="/img/b1.webp" title="Learn how to build an amazing portfolio website using next js"/>
+    </div>
+
+    <div>
+      <BlogCard image="/img/b2.webp" title="Learn how to build an amazing portfolio website using next js"/>
+    </div>
+
+    <div>
+      <BlogCard image="/img/b3.webp" title="Learn how to build an amazing portfolio website using next js"/>
+    </div>
+</div>
     </div>
   )
 }
