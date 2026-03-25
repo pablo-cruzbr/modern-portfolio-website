@@ -8,7 +8,7 @@ const Projects = () => {
             A small selection of recent <span className="text-cyan-200"> projects</span>
         </h1>
         <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
-            <div>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="0">
                 <Image
                     src="/img/p1.webp"
                     alt='img'
@@ -20,7 +20,7 @@ const Projects = () => {
                 <h1 className="pt-2 font-medium text-white">Apps, UI/UX</h1>
             </div>
 
-            <div>
+            <div  data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="0">
                 <Image
                     src="/img/p2.webp"
                     alt='img'
@@ -32,7 +32,7 @@ const Projects = () => {
                 <h1 className="pt-2 font-medium text-white">Bradning , Motion</h1>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200">
                 <Image
                     src="/img/p3.webp"
                     alt='img'
@@ -44,7 +44,7 @@ const Projects = () => {
                 <h1 className="pt-2 font-medium text-white">Branding , UI/UX</h1>
             </div>
 
-            <div>
+            <div  data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300">
                 <Image
                     src="/img/p4.webp"
                     alt='img'
