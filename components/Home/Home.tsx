@@ -7,6 +7,7 @@ import Skills from './Skills/Skills'
 import ClientReview from './ClientRaview/ClientReview'
 import Blog from './Blog/Blog'
 import Contact from './Contact/Contact'
+import Footer from './Contact/Footer/Footer'
 const Home = () => {
   return (
     <div className="overflow-hidden">
