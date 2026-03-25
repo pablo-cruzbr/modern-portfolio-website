@@ -4,6 +4,23 @@ Este é um projeto de portfólio de alta performance desenvolvido com foco em **
 
 ---
 
+## 🖥️ Demonstração em Tempo Real
+
+Abaixo, podes conferir uma breve demonstração das animações e da fluidez da interface:
+
+<div align="center">
+  <img src="./public/img/demo.gif" alt="Demonstração do Portfólio" width="100%">
+</div>
+
+---
+
+### 🎥 Vídeo Completo (Alta Resolução)
+Para visualizar a demonstração detalhada com maior qualidade e todos os detalhes técnicos, acede ao link abaixo:
+
+👉 [Assista à demonstração completa no YouTube](https://www.youtube.com/watch?v=_PDnhR2fC_Y)
+
+---
+
 ## 🛠️ Stack Tecnológica & Decisões de Arquitetura
 
 ### Core
