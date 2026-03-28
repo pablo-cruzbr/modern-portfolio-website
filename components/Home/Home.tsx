@@ -9,12 +9,12 @@ import ClientReview from './ClientRaview/ClientReview'
 import Blog from './Blog/Blog'
 import Contact from './Contact/Contact'
 import Footer from './Contact/Footer/Footer'
-import AOS from 'aos'
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css"
 
 const Home = () => {
   useEffect(() => {
     const initAOS = async () => {
+      const AOS = (await import("aos")).default;
       await import("aos");
       AOS.init({
         duration: 1000,
